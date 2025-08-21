@@ -67,8 +67,8 @@ function Projects() {
               description="Developed a full-featured Cake Bakery E-Commerce Platform with a user web app, admin panel (web + React Native), and GPS-enabled delivery app, featuring Firebase auth, wallet system, and real-time order management.
               Implemented ₹150 wallet bonus on signup, dynamic shipping charges via live GPS, and smooth order placement with confirmation animations.
               Enabled admins to manage products, users, and assign orders instantly, with real-time push notifications and efficient delivery tracking."
-              ghLink=""
-              demoLink="https://ptustudyzone.vercel.app/"
+              ghLink="https://github.com/Lalanchaudhary/EgglessCake"
+              demoLink="https://www.egglesscakes.in"
             />
           </Col>
           <Col md={4} className="project-card">
@@ -109,95 +109,6 @@ function Projects() {
               description="This College Event Website is a visually engaging and interactive platform designed to promote and manage campus events. Built with modern web technologies, the site features 3D animations and smooth transitions to create an immersive browsing experience that captures attention and reflects the excitement of college life. It includes a dedicated registration page where attendees can easily sign up for events, ensuring a seamless user experience from discovery to participation. The website combines creative design with functional elements to deliver both aesthetic appeal and practical utility for students and organizers alike."
               ghLink="https://github.com/abhi19772022/portfolio-nextjs-aceternity"
               demoLink="https://elevate.theuniques.in/"
-            />
-          </Col>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={School}
-              techStack={[
-                html,
-                css,
-                react,
-                tailwindcss,
-                node,
-                canva,
-                firebase,
-                restapi,
-                postman,
-              ]}
-              isBlog={false}
-              title="Springdale Public School"
-              description="This project is a responsive website for Springdale Public School, designed and developed as part of an assignment from the company I applied for. The website showcases various sections including Academics, Admissions, Contact Us, and more. The project was completed within 6 hours of continuous hard work."
-              ghLink=""
-              demoLink="https://madrocket-technologies-school.vercel.app"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={Sprint}
-              techStack={[
-                html,
-                css,
-                react,
-                tailwindcss,
-                node,
-                canva,
-                firebase,
-                restapi,
-                postman,
-              ]}
-              isBlog={false}
-              title="Sprint Digital"
-              description="During my internship at HopinMinds, my friend Sahil Jamwal and I were tasked with developing a comprehensive and fully responsive website. This project was designed to push our skills and knowledge, allowing us to apply and integrate a wide range of technologies and concepts in web development."
-              ghLink=""
-              demoLink="https://sprint-react-main-project-nine.vercel.app"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={Devbharal}
-              techStack={[
-                html,
-                css,
-                react,
-                tailwindcss,
-                mongo,
-                node,
-                express,
-                canva,
-                firebase,
-                restapi,
-                postman,
-              ]}
-              isBlog={false}
-              title="DevBharal"
-              description="DevBharal is a dynamic web application designed to streamline the development experience. It features secure user authentication with JWT and bcrypt, project management capabilities, and a fully responsive design. The interactive UI is built using React.js, Tailwind CSS, AOS animations, and Framer Motion. The robust backend, developed with Node.js and Express.js, stores data in MongoDB Atlas, with extensive API testing done using Postman."
-              ghLink=""
-              demoLink="https://devbharal.vercel.app"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={childmindwell}
-              techStack={[
-                html,
-                css,
-                react,
-                tailwindcss,
-                node,
-                canva,
-                firebase,
-                restapi,
-                postman,
-              ]}
-              isBlog={false}
-              title="ChildMindWell"
-              description="We empower caregivers with tools to nurture children's mental wellness through screenings, personalized guidance, insightful articles, and an inclusive community. Our features include screenings to identify areas of concern, guidance tailored to individual needs, informative articles to deepen understanding, comprehensive dashboards for tracking progress, diverse channels for engagement, and interactive sessions for meaningful interaction."
-              ghLink=""
-              demoLink="https://childmindwell.vercel.app"
             />
           </Col>
 

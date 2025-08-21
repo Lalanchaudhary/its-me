@@ -32,11 +32,11 @@ function NavBar() {
       expanded={expand}
       fixed="top"
       expand="md"
-      className={navColour ? "sticky" : "navbar"}
+      className={navColour ? "sticky px-0 " : "navbar px-0"}
     >
       <Container>
         <Navbar.Brand href="/" className="d-flex">
-        <h2 className="main-name">&lt; Lalan Chaudhary /&gt;</h2>
+        <h2 className="main-name sm:text-sm">&lt; Lalan Chaudhary /&gt;</h2>
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"

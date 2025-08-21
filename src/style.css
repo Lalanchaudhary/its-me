@@ -304,6 +304,10 @@ button:focus {
   .Typewriter__cursor {
     display: none !important;
   }
+  .main-name {
+  color: #cd5ff8;
+}
+
 }
 
 
