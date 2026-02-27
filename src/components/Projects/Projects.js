@@ -3,13 +3,12 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import ptuwebsite from "../../Assets/eggless.png";
-import childmindwell from "../../Assets/Projects/childmindwell.png";
 import convertify from "../../Assets/Projects/convertify.png";
-import School from "../../Assets/school.png";
-import Sprint from "../../Assets/sprint.png";
-import Devbharal from "../../Assets/Projects/devbharal.png";
 import RatemyTutor from "../../Assets/Projects/elevate.png";
 import MargDarshi from "../../Assets/Projects/invoice.png";
+import surya from "../../Assets/Projects/surya.png";
+import uride from "../../Assets/Projects/uride.png";
+import birmaya from "../../Assets/Projects/birmaya.png";
 function Projects() {
   const html =
     "https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white";
@@ -37,16 +36,29 @@ function Projects() {
     "https://img.shields.io/badge/REST_API-%234F4F4F.svg?style=for-the-badge&logo=rest-api&logoColor=white";
   const postman =
     "https://img.shields.io/badge/Postman-%234F4F4F.svg?style=for-the-badge&logo=postman&logoColor=red";
+  const next =
+    "https://img.shields.io/badge/Next.js-%23000000.svg?style=for-the-badge&logo=next.js&logoColor=white";
+  const nodemailer =
+    "https://img.shields.io/badge/Nodemailer-%23000000.svg?style=for-the-badge&logo=nodemailer&logoColor=white";
+  const nestjs =
+    "https://img.shields.io/badge/NestJS-%23E0234E.svg?style=for-the-badge&logo=nestjs&logoColor=white";
+  const cloudinary =
+    "https://img.shields.io/badge/Cloudinary-%23E0234E.svg?style=for-the-badge&logo=cloudinary&logoColor=white";
+  const vercel =
+    "https://img.shields.io/badge/Vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white";
   return (
     <Container fluid className="project-section">
       <Particle />
       <Container>
-        <h1 className="project-heading">
+        {/* <h1 className="project-heading">
           My Recent <strong className="purple">Works </strong>
         </h1>
         <p style={{ color: "white" }}>
           Here are a few projects I've worked on recently.
-        </p>
+        </p> */}
+        <h2 className="project-heading" style={{ fontSize: "2rem" }}>
+          Client <strong className="purple">Projects</strong>
+        </h2>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
@@ -71,26 +83,76 @@ function Projects() {
               demoLink="https://www.egglesscakes.in"
             />
           </Col>
-          <Col md={4} className="project-card">
+                    <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={MargDarshi}
+              imgPath={birmaya}
               techStack={[
-                react,
-                express,
-                firebase,
-                node,
+                next,
+                nestjs,
+                cloudinary,
+                vercel,
+                nodemailer,
+                mongo,
+                bootstrap,
                 tailwindcss,
                 postman,
                 restapi,
                 canva,
               ]}
               isBlog={false}
-              title="Invoice Generator"
-              description="The Invoice Generator is a full-stack web application built using the MERN stack, designed to simplify the process of creating and managing professional invoices. Users can input client details, add items with quantity and rates, apply taxes or discounts, and the app automatically calculates the total amount in real-time. It also allows users to download invoices as PDFs and manage previous billing records efficiently. With a clean, responsive interface and smooth user experience, the app is ideal for freelancers and small businesses looking for a simple yet powerful billing solution."
-              ghLink="https://github.com/Lalanchaudhary/invoiced"
-              demoLink="https://invoiced-pied.vercel.app/"
+              title="Birmaya Fintech"
+              description="Birmaya Fintech is a professional corporate website developed for a financial services company. The platform presents the company’s services, vision, and business solutions in a clean and modern layout. Designed with a responsive and performance-focused approach, the website ensures smooth navigation, clear service representation, and a trustworthy digital presence for clients and partners."
+              ghLink="https://github.com/abhi19772022/portfolio-nextjs-aceternity"
+              demoLink="https://elevate.theuniques.in/"
             />
           </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={uride}
+              techStack={[
+                html,
+                css,
+                js,
+                bootstrap,
+                tailwindcss,
+                canva,
+              ]}
+              isBlog={false}
+              title="URIDE"
+              description="URIDE is a client-based frontend project developed for a vehicle rental company. The website showcases their complete fleet of rental vehicles with detailed listings, categories, and clear pricing information. It also highlights the company’s presence across multiple cities, making it easy for users to check availability based on location. Built with a modern, responsive design, the platform ensures smooth navigation and an engaging user experience across all devices, helping customers explore and choose vehicles effortlessly."
+              ghLink="https://github.com/abhi19772022/portfolio-nextjs-aceternity"
+              demoLink="https://elevate.theuniques.in/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={surya}
+              techStack={[
+                react,
+                express,
+                mongo,
+                node,
+                firebase,
+                tailwindcss,
+                postman,
+                restapi,
+                canva,
+              ]}
+              isBlog={false}
+              title="Surya Cake"
+              description="Developed a full-featured Cake Bakery E-Commerce Platform with a user web app, admin panel (web + React Native), and GPS-enabled delivery app, featuring Firebase auth, wallet system, and real-time order management.
+              Implemented ₹150 wallet bonus on signup, dynamic shipping charges via live GPS, and smooth order placement with confirmation animations.
+              Enabled admins to manage products, users, and assign orders instantly, with real-time push notifications and efficient delivery tracking."
+              ghLink="https://github.com/Lalanchaudhary/surya-frontend"
+              demoLink="https://www.suryacake.in"
+            />
+          </Col>
+        </Row>
+        <h2 className="project-heading" style={{ fontSize: "2rem" }}>
+          Collage <strong className="purple">Projects</strong>
+        </h2>
+        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={RatemyTutor}
@@ -111,7 +173,26 @@ function Projects() {
               demoLink="https://elevate.theuniques.in/"
             />
           </Col>
-
+            <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={MargDarshi}
+              techStack={[
+                react,
+                express,
+                firebase,
+                node,
+                tailwindcss,
+                postman,
+                restapi,
+                canva,
+              ]}
+              isBlog={false}
+              title="Invoice Generator"
+              description="The Invoice Generator is a full-stack web application built using the MERN stack, designed to simplify the process of creating and managing professional invoices. Users can input client details, add items with quantity and rates, apply taxes or discounts, and the app automatically calculates the total amount in real-time. It also allows users to download invoices as PDFs and manage previous billing records efficiently. With a clean, responsive interface and smooth user experience, the app is ideal for freelancers and small businesses looking for a simple yet powerful billing solution."
+              ghLink="https://github.com/Lalanchaudhary/invoiced"
+              demoLink="https://invoiced-4n5i.vercel.app/login"
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={convertify}
