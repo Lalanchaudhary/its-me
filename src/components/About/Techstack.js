@@ -8,19 +8,14 @@ import {
   DiMongodb,
   DiPython,
   DiGit,
-  DiJava,
-  DiFigma,
+  DiJava
 } from "react-icons/di";
 import {
-  SiRedis,
   SiFirebase,
   SiNextdotjs,
-  SiSolidity,
-  SiPostgresql,
   SiCss3,
   SiExpress 
 } from "react-icons/si";
-import { TbBrandGolang } from "react-icons/tb";
 import { FaHtml5 } from "react-icons/fa6";
 function Techstack() {
   return (
