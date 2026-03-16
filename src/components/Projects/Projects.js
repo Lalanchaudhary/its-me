@@ -79,7 +79,7 @@ function Projects() {
               description="Developed a full-featured Cake Bakery E-Commerce Platform with a user web app, admin panel (web + React Native), and GPS-enabled delivery app, featuring Firebase auth, wallet system, and real-time order management.
               Implemented ₹150 wallet bonus on signup, dynamic shipping charges via live GPS, and smooth order placement with confirmation animations.
               Enabled admins to manage products, users, and assign orders instantly, with real-time push notifications and efficient delivery tracking."
-              ghLink="https://github.com/Lalanchaudhary/EgglessCake"
+              ghLink=""
               demoLink="https://www.egglesscakes.in"
             />
           </Col>
@@ -102,8 +102,8 @@ function Projects() {
               isBlog={false}
               title="Birmaya Fintech"
               description="Birmaya Fintech is a professional corporate website developed for a financial services company. The platform presents the company’s services, vision, and business solutions in a clean and modern layout. Designed with a responsive and performance-focused approach, the website ensures smooth navigation, clear service representation, and a trustworthy digital presence for clients and partners."
-              ghLink="https://github.com/abhi19772022/portfolio-nextjs-aceternity"
-              demoLink="https://elevate.theuniques.in/"
+              ghLink=""
+              demoLink="https://www.birmayafintech.com/"
             />
           </Col>
 
@@ -121,8 +121,8 @@ function Projects() {
               isBlog={false}
               title="URIDE"
               description="URIDE is a client-based frontend project developed for a vehicle rental company. The website showcases their complete fleet of rental vehicles with detailed listings, categories, and clear pricing information. It also highlights the company’s presence across multiple cities, making it easy for users to check availability based on location. Built with a modern, responsive design, the platform ensures smooth navigation and an engaging user experience across all devices, helping customers explore and choose vehicles effortlessly."
-              ghLink="https://github.com/abhi19772022/portfolio-nextjs-aceternity"
-              demoLink="https://elevate.theuniques.in/"
+              ghLink=""
+              demoLink="https://uride.in/"
             />
           </Col>
           <Col md={4} className="project-card">
@@ -144,7 +144,7 @@ function Projects() {
               description="Developed a full-featured Cake Bakery E-Commerce Platform with a user web app, admin panel (web + React Native), and GPS-enabled delivery app, featuring Firebase auth, wallet system, and real-time order management.
               Implemented ₹150 wallet bonus on signup, dynamic shipping charges via live GPS, and smooth order placement with confirmation animations.
               Enabled admins to manage products, users, and assign orders instantly, with real-time push notifications and efficient delivery tracking."
-              ghLink="https://github.com/Lalanchaudhary/surya-frontend"
+              ghLink=""
               demoLink="https://www.suryacake.in"
             />
           </Col>
