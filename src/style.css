@@ -551,6 +551,50 @@ button:focus {
   padding-top: 10px !important;
 }
 
+.services-copy {
+  color: white !important;
+  text-align: center !important;
+  max-width: 760px;
+  margin: 0 auto;
+  opacity: 0.9;
+}
+
+.service-card-view {
+  text-align: left;
+}
+
+.service-icon-wrap {
+  width: 70px;
+  height: 70px;
+  border-radius: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  background: rgba(98, 54, 134, 0.2);
+  border: 1px solid rgba(197, 115, 230, 0.35);
+}
+
+.service-icon {
+  font-size: 2rem;
+  color: #c770f0;
+}
+
+.service-description {
+  text-align: left !important;
+  color: rgba(255, 255, 255, 0.9) !important;
+}
+
+.service-highlight-list {
+  margin: 0;
+  padding-left: 18px;
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.service-highlight-list li {
+  margin-bottom: 8px;
+}
+
 /* --------- */
 /* About */
 /* --------- */

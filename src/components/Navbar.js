@@ -8,6 +8,7 @@ import {
   AiOutlineFundProjectionScreen,
   AiOutlineUser,
 } from "react-icons/ai";
+import { RiServiceLine } from "react-icons/ri";
 
 import { CgFileDocument } from "react-icons/cg";
 
@@ -74,6 +75,16 @@ function NavBar() {
                   style={{ marginBottom: "2px" }}
                 />{" "}
                 Projects
+              </Nav.Link>
+            </Nav.Item>
+
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/services"
+                onClick={() => updateExpanded(false)}
+              >
+                <RiServiceLine style={{ marginBottom: "2px" }} /> Services
               </Nav.Link>
             </Nav.Item>
 
