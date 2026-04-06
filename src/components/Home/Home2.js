@@ -18,16 +18,27 @@ function Home2() {
             <h1 style={{ fontSize: "2.6em" }}>
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
-<p className="home-about-body">
-  I'm a passionate software developer driven by curiosity and a commitment to innovation. Proficient in <i><b className="purple">C++,JAVA and JavaScript</b></i>, I thrive on building meaningful solutions through <i><b className="purple">Web Technologies</b></i> and exploring the frontiers of <i><b className="purple">AI and Machine Learning</b></i>.
-  <br />
-  <br />
-  I love transforming ideas into reality using tools like <b className="purple">Node.js</b> and modern frameworks such as <i><b className="purple">React.js</b></i>. Every project is a new opportunity to create something impactful and user-focused.
-  <br />
-  <br />
-  Let's connect and innovate together — because every line of code is a step toward a smarter future.
-</p>
-
+            <p className="home-about-body">
+              I'm a freelance <i><b className="purple">full-stack developer</b></i>{" "}
+              helping businesses, startups, and individuals turn ideas into
+              polished digital products. I specialize in{" "}
+              <i><b className="purple">Web Development, App Development, and Custom Software Solutions</b></i>{" "}
+              that are modern, scalable, and user-friendly.
+              <br />
+              <br />
+              I work with technologies like <b className="purple">React.js</b>,{" "}
+              <b className="purple">Node.js</b>, and JavaScript to build
+              responsive websites, business applications, and custom systems
+              that solve real problems and support growth.
+              <br />
+              <br />
+              Along with development, I also help brands with{" "}
+              <i><b className="purple">Digital Marketing and Social Media Management</b></i>,
+              creating a stronger online presence with the right strategy and
+              execution. My goal is to deliver solutions that look
+              professional, perform smoothly, and create real value for every
+              client.
+            </p>
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
