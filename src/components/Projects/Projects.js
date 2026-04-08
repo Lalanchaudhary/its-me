@@ -150,7 +150,7 @@ function Projects() {
           </Col>
         </Row>
         <h2 className="project-heading" style={{ fontSize: "2rem" }}>
-          Collage <strong className="purple">Projects</strong>
+          College <strong className="purple">Projects</strong>
         </h2>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
